@@ -28,9 +28,9 @@ ul{list-style: none;margin: 0;padding: 0}
   background-color: #f2f2f2;
   padding: 10px;
   margin: 0px auto;
-  border-radius: 1vh;
+  border-radius: 1vw;
   cursor: pointer;
-  font-size: 1.5vw;
+  font-size: 1.5vh;
 }
 
 .file-upload p:last-of-type {
@@ -38,9 +38,9 @@ ul{list-style: none;margin: 0;padding: 0}
   background-color: #d9d9d9;
   padding: 10px;
   margin: 20px auto;
-  border-radius: 1vh;
+  border-radius: 1vw;
   cursor: pointer;
-  font-size: 1.5vw;
+  font-size: 1.5vh;
 }
 
 .file-upload p:hover {
@@ -60,21 +60,21 @@ ul{list-style: none;margin: 0;padding: 0}
 }
 
 .button li {
-  margin: 0.8vh 1vw;
+  margin: 0.6vh 1.2vw;
   display: block;
 }
 
 .square-button {
-  padding: 1.5vh;
+  padding: 1vw;
   border: none;
-  border-radius: 1vh;
+  border-radius: 1vw;
   background-color: #4CAF50;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 1.5vw;
+  font-size: 1.5vh;
   font-weight:bold;
-  margin-right: 0.5vw;
+  margin-right: 1vw;
   float: left
 }
 
@@ -151,13 +151,13 @@ ul{list-style: none;margin: 0;padding: 0}
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 60vw;
+	width: 80vw;
 	background-color: #fff;
 	border: 2px solid #ccc;
-	padding: 2vh 2vw;
+	padding: 2vw 2vh;
 	display: none;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    font-size: 1.5vw;
+    font-size: 1.5vh;
     z-index: 1000;
 }
 
@@ -181,24 +181,24 @@ ul{list-style: none;margin: 0;padding: 0}
 }
 
 #circle-button{
-	width: 7vw;
-	height: 21vw;
+	width: 8vh;
+	height: 24vh;
     position: fixed;
-	bottom: 3vh;
-	right: 1.5vw;
+	bottom: 2vh;
+	right: 2vw;
     z-index: 999;
 }
 
 .circle-button {
-    margin: 0.7vw 0.7vw;
-	width: 5.6vw;
-	height: 5.6vw;
+    margin: 0.8vh 0.8vh;
+	width: 6.4vh;
+	height: 6.4vh;
 	background-color: #007bff;
 	color: #fff;
 	border: none;
 	cursor: pointer;
 	border-radius: 50%;
-	font-size: 1.35vw;
+	font-size: 1.5vh;
 	font-weight:bold;
     transition: all 0.3s ease;
 }
